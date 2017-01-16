@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/javascript.js" ></script>
+  <title>Portfolio | Daniel Segovia</title>
+</head>
+<body data-spy="scroll" data-target="#myNavbar" data-offset="50">
+  <!-- Navbar Code Starts -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+
+        <!-- Button for XS Screens Starts Here -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Button for XS Screens Ends Here -->
+
+        <!-- Page Title in Navbar -->
+        <a class="navbar-brand" href="#">Daniel Segovia's Portfolio</a>
+      </div>
+      <!-- This is the Navigation that collapses on XS Screens -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a id="nav-about" href="#about">About</a></li>
+          <li><a id="nav-portfolio" href="#portfolio">Portfolio</a></li>
+          <li><a id="nav-contact" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- End of Collapse -->
+      
+    </div>
+  </nav>
+  <!-- Navbar Coode Ends -->
+
+  <!-- Intro Section -->
+  <div class="container-fluid text-center jumbotron" id="about">
+      <div class="page-header">
+        <h2>Developer in the making (it never ends), with practical experience in front-end web dev, project management, creative design and engineering. Passionate for software, and how the world works.</h2>
+        <hr>
+        <h2>Developer - Entrepreneur - Engineer</h2>
+        <img src="assets/img/photo_daniel.jpg" alt="Author's Picture" class="img-circle img-responsive" height="250" width="250" id="daniel_img">
+      </div>   
+  </div>
+  <!-- Intro Section Ends -->
+
+
+  <!-- Porfolio Section -->
+  <div class="container-fluid text-center" id="portfolio">
+    <h1>Portfolio</h1>
+    <a href="http://miaguinaldo.com/index.html"><img class="img-responsive web-screenshot" src="assets/img/aguinaldo_screen.jpg"></a>
+
+  </div>
+  <!-- Porfolio Section Ends -->
+
+  <!-- Contact Section -->
+  <div class="container-fluid text-center" id="contact">
+    
+    <h1>Contact</h1>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+        <form action="mailto:segoarce90@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <input class="form-control" type="text" name="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="email" name="email" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="text" name="phone" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="comment" placeholder="Comment"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Send!</button>
+          </div>
+        </form>
+      </div>
+    </div>  
+
+  </div>
+  <!-- Contact Section Ends -->
+
+
+
+</body>
+</html>

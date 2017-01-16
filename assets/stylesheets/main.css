@@ -1,0 +1,56 @@
+a {
+	outline: 0;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.container-fluid:not(:first-child):not(:last-child) {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 0;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+.container-fluid:not(:first-child):not(:last-child) {
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+.page-header {
+	margin-bottom: 0px;
+}
+
+hr {
+	border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: black;
+  height: 2px;
+  margin: 40px 0 40px 0;
+}
+
+#daniel_img {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#portfolio h1 {
+	margin: 50px 0 50px 0;
+}
+
+
+.web-screenshot {
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#contact {
+	padding-bottom: 50px;
+}
